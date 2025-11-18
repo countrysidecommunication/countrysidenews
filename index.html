@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Local and national news covering politics, economics, security, education, and culture from Countryside News.">
+    <title>COUNTRYSIDE NEWS - In Truth and Pursuit</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="/images/icon_128.png" rel="shortcut icon"> 
+    <style>
+        /* Minimal ticker styles to replace deprecated <marquee> */
+        .news-ticker { overflow: hidden; white-space: nowrap; }
+        .news-ticker-track { display: inline-block; padding-left: 100%; animation: ticker 20s linear infinite; }
+        .news-ticker-track span { display: inline-block; padding: 0 2rem; }
+        @keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-100%); } }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+<div class="header-top">
+    <div class="logo-brand">
+        <img src="images/icon_128.png" alt="COUNTRYSIDE NEWS" class="logo-img">
+        <div class="brand-text">
+            <h1>COUNTRYSIDE NEWS</h1>
+            <p class="motto">In Truth and Pursuit</p>
+        </div>
+    </div>
+    <div class="header-date">
+        <p id="current-date"></p>
+    </div>
+</div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="main-nav" aria-label="Main navigation">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="politics.html">Politics</a></li>
+                <li><a href="economics.html">Economics</a></li>
+                <li><a href="security.html">Security</a></li>
+                <li><a href="entertainment.html">Entertainment</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="sports.html">Sports</a></li>
+                <li><a href="technology.html">Technology</a></li>
+                <li><a href="health.html">Health</a></li>
+                <li><a href="opinion.html">Opinion</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breaking News Ticker -->
+    <div class="breaking-news">
+        <div class="container">
+            <div class="breaking-news-label">
+                <span>BREAKING</span>
+            </div>
+            <div class="breaking-news-content">
+                <div class="news-ticker" role="status" aria-live="polite">
+                    <div class="news-ticker-track">
+                        <span>Makinde, Bala Mohammed, Wike’s Camps Clash at PDP National Secretariat</span>
+                        <span>Ex-Harvard President Larry Summers Steps Back From Public Role After Epstein Email Release</span>
+                        <span>New economic stimulus package proposed to address inflation concerns</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <div class="content-grid">
+                <!-- Main Story -->
+                <section class="main-story">
+                    <article class="featured-article">
+                        <img src="images/Makinde-Bala-Mohammed-Wikes-Camps-Clash-at-PDP-National-Secretariat.jpeg" alt="Main Story" class="featured-image">
+                        <div class="article-content">
+                            <span class="category-tag">Politics</span>
+                            <h2 class="article-title">Makinde, Bala Mohammed, Wike’s Camps Clash at PDP National Secretariat</h2>
+                            <p class="article-excerpt">Tensions boiled over at the national headquarters of the Peoples Democratic Party (PDP) in Abuja on Tuesday as forces loyal to Oyo State Governor Seyi Makinde and Bauchi State Governor Bala Mohammed clashed with supporters of the Federal Capital Territory Minister, Nyesom Wike, in a dramatic struggle for control of the opposition party’s secretariat.</p>
+                            <div class="article-meta">
+                                <span class="author">By Okanlawon Johnson</span>
+                                <span class="time">18th November, 2025</span>
+                                <a href="Makinde-Bala-Mohammed-Wikes-Camps-Clash-at-PDP-National-Secretariat.html">Readmore</a>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+    
+
+                <!-- Latest News Section -->
+                <section class="latest-news">
+                    <h2 class="section-title">Latest News</h2>
+                    <div class="news-grid">
+                        <article class="news-item">
+                            <img src="images/Larry-Summers-.jpg" alt="News 1" class="news-image">
+                            <div class="news-content">
+                                <span class="category-tag">News</span>
+                                <h3 class="news-title">Ex-Harvard President Larry Summers Steps Back From Public Role After Epstein Email Release</h3>
+                                <p class="news-excerpt">Former Harvard president Larry Summers has stepped back from public commitments after emails detailing his years-long contact with disgraced financier Jeffrey Epstein were released by Congress last week.</p>
+                                <div class="article-meta">
+                                    <span class="author">By Michael Chen</span>
+                                    <a href="Ex-Harvard President Larry Summers Steps Back From Public Role After Epstein Email Release.html">Readmore</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="news-item">
+                            <img src="images/Obasanjo-and-Fayose.jpg" alt="News 2" class="news-image">
+                            <div class="news-content">
+                                <span class="category-tag">Politics</span>
+                                <h3 class="news-title">Obasanjo, Fayose Rekindle Long-Running Feud</h3>
+                                <p class="news-excerpt">Former President Olusegun Obasanjo and former Ekiti State governor Ayo Fayose have reopened their long-dormant hostilities, trading blistering insults barely a week after appearing to reconcile at Fayose’s 65th birthday celebration.</p>
+                                <div class="article-meta">
+                                    <span class="author">By Jide Ajia</span>
+                                    <a href="Obasanjo-Fayose-Rekindle-Long-Running-Feud.html">Readmore</a>
+                                    
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="news-item">
+                            <img src="https://picsum.photos/seed/news3/300/200.jpg" alt="News 3" class="news-image">
+                            <div class="news-content">
+                                <span class="category-tag">Education</span>
+                                <h3 class="news-title">Universities Announce Partnership for Research Innovation</h3>
+                                <p class="news-excerpt">Several leading universities have formed a strategic alliance to advance research...</p>
+                                <div class="article-meta">
+                                    <span class="author">By Emily Watson</span>
+                                    <span class="time">5 hours ago</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="news-item">
+                            <img src="https://picsum.photos/seed/news4/300/200.jpg" alt="News 4" class="news-image">
+                            <div class="news-content">
+                                <span class="category-tag">Entertainment</span>
+                                <h3 class="news-title">Film Festival Announces Lineup for This Year's Event</h3>
+                                <p class="news-excerpt">Organizers of the annual film festival have revealed an impressive lineup...</p>
+                                <div class="article-meta">
+                                    <span class="author">By James Miller</span>
+                                    <span class="time">6 hours ago</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- Sidebar -->
+                <aside class="sidebar">
+                    <!-- Trending Stories -->
+                    <div class="sidebar-section">
+                        <h3 class="sidebar-title">Trending Stories</h3>
+                        <div class="trending-list">
+                            <div class="trending-item">
+                                <span class="trending-number">1</span>
+                                <a href="#">Local Business Wins National Recognition for Innovation</a>
+                            </div>
+                            <div class="trending-item">
+                                <span class="trending-number">2</span>
+                                <a href="#">Weather Alert: Storm System Approaching the Region</a>
+                            </div>
+                            <div class="trending-item">
+                                <span class="trending-number">3</span>
+                                <a href="#">Community Garden Project Expands to New Locations</a>
+                            </div>
+                            <div class="trending-item">
+                                <span class="trending-number">4</span>
+                                <a href="#">Health Officials Issue New Guidelines for Seasonal Illnesses</a>
+                            </div>
+                            <div class="trending-item">
+                                <span class="trending-number">5</span>
+                                <a href="#">Sports Team Advances to Championship Finals</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Opinion Section -->
+                    <div class="sidebar-section">
+                        <h3 class="sidebar-title">Opinion</h3>
+                        <div class="opinion-item">
+                            <img src="https://picsum.photos/seed/opinion1/80/80.jpg" alt="Opinion 1" class="opinion-image">
+                            <div class="opinion-content">
+                                <h4><a href="#">The Future of Rural Education in a Digital Age</a></h4>
+                                <p class="opinion-author">By Dr. Rebecca Thompson</p>
+                            </div>
+                        </div>
+                        <div class="opinion-item">
+                            <img src="https://picsum.photos/seed/opinion2/80/80.jpg" alt="Opinion 2" class="opinion-image">
+                            <div class="opinion-content">
+                                <h4><a href="#">Why Economic Policies Must Consider Rural Communities</a></h4>
+                                <p class="opinion-author">By Mark Harrison</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Advertisement -->
+                    <div class="sidebar-section ad-section">
+                        <div class="ad-container">
+                            <p>Advertisement</p>
+                            <img src="https://picsum.photos/seed/ad1/300/250.jpg" alt="Advertisement">
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <!-- Category Highlights -->
+    <section class="category-highlights">
+        <div class="container">
+                <h2 class="section-title">Category Highlights</h2>
+            <div class="highlights-grid">
+                <div class="highlight-card">
+                    <img src="https://picsum.photos/seed/politics/400/250.jpg" alt="Politics" class="highlight-image">
+                    <div class="highlight-content">
+                        <h3>Politics</h3>
+                        <p>Latest political developments and analysis</p>
+                        <a href="politics.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <img src="https://picsum.photos/seed/economics/400/250.jpg" alt="Economics" class="highlight-image">
+                    <div class="highlight-content">
+                        <h3>Economics</h3>
+                        <p>Market trends and economic insights</p>
+                        <a href="economics.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <img src="https://picsum.photos/seed/security/400/250.jpg" alt="Security" class="highlight-image">
+                    <div class="highlight-content">
+                        <h3>Security</h3>
+                        <p>Updates on national and local security matters</p>
+                        <a href="security.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <img src="https://picsum.photos/seed/entertainment/400/250.jpg" alt="Entertainment" class="highlight-image">
+                    <div class="highlight-content">
+                        <h3>Entertainment</h3>
+                        <p>Celebrity news, movies, and cultural events</p>
+                        <a href="entertainment.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>COUNTRYSIDE NEWS is dedicated to bringing you accurate, timely, and comprehensive news coverage from our communities and beyond. Our motto "In Truth and Pursuit" guides our commitment to journalistic integrity.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="politics.html">Politics</a></li>
+                        <li><a href="economics.html">Economics</a></li>
+                        <li><a href="security.html">Security</a></li>
+                        <li><a href="entertainment.html">Entertainment</a></li>
+                        <li><a href="education.html">Education</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Main Street, Countryside, State 12345</p>
+                    <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                    <p><i class="fas fa-envelope"></i> info@countrysidenews.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Follow us on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Follow us on Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Follow us on LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Follow us on YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="copyright-year">2023</span> COUNTRYSIDE NEWS. All Rights Reserved.</p>
+                <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> | <a href="#">Cookie Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Set current date
+        (function() {
+            var dateEl = document.getElementById('current-date');
+            if (dateEl) {
+                dateEl.textContent = new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+            }
+
+            var yearEl = document.getElementById('copyright-year');
+            if (yearEl) {
+                yearEl.textContent = new Date().getFullYear();
+            }
+
+            var toggle = document.querySelector('.mobile-menu-toggle');
+            var menu = document.querySelector('.nav-menu');
+            if (toggle && menu) {
+                toggle.addEventListener('click', function() {
+                    menu.classList.toggle('active');
+                });
+            }
+        })();
+    </script>
+</body>
+</html>
